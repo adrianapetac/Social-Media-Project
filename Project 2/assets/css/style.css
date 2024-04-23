@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin:0;
+    }
+    
+    body {
+      font-family: sans-serif;
+      
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: normal;
+        justify-content: normal;
+        align-items: normal;
+        height: 100vh;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    ul {
+      list-style-type: none;
+    }
+    
+    section {
+      height: 100%;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+    
+    }
+    h1 {
+      padding: 20px 0;
+
+    }
+    
+    .Menu {
+            background-color: lightgray;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0 20px;
+           
+      }
+           .button {
+                display: inline-block;
+                cursor: pointer;
+                padding: 10px 20px;
+                border-radius: 20px;
+                text-decoration: none;
+                font-size: 16px;
+                background-color: #5c6bc0;
+                color: white;
+                background-color:#525293;
+                position: fixed;
+                bottom:0;
+               
+            }
+    
+    .card {
+
+      padding: 16px;
+      text-align: left;
+      background-color: lightgrey;
+      color: black;
+      border-radius: 10px;
+      margin:5px;
+    }
+            
+    
+    .flex-container {
+
+            display:flex;
+            flex-direction: column;
+            background-color:#fafafa;
+            height:inherit;
+       
+      }
+    
+    aside {
+      width: 30%;
+      padding: 15px;
+      margin-left: 15px;
+      float: right;
+      font-style: italic;
+      background-color: #fafafa;
+    }
+    .Trends {
+
+      padding: 2px;
+      text-align: center;
+      background-color: lightgrey;
+      color: black;
+      border-radius: 10px;
+    }
